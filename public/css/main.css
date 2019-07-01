@@ -1,0 +1,20 @@
+
+.cursive {
+  font-family: 'Gochi Hand', cursive;
+}
+
+h1, p, h2, a, h3, h4, h5, h6 {
+  font-family: 'Gochi Hand', cursive;
+}
+
+.body {
+  background-image: url('https://www.lunapic.com/editor/premade/gradient.gif');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  background-attachment: fixed;
+}
+
+.opacity {
+  opacity: 0.95;
+}
