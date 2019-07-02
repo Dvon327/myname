@@ -11,6 +11,7 @@ h1, p, h2, a, h3, h4, h5, h6 {
   background-image: url('https://www.lunapic.com/editor/premade/gradient.gif');
   background-repeat: no-repeat;
   background-size: cover;
+  min-height: 100vh;
   height: 100%;
   background-attachment: fixed;
 }

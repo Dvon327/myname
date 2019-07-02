@@ -1,14 +1,14 @@
 import React from 'react'
 
 const HomeCard = () => (
-
+<div>
   <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-  <h1>Sunlight and Tech</h1>
   <ol class="carousel-indicators">
-    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+  <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
   </ol>
+  <h1>Sunlight and Tech</h1>
   <div class="carousel-inner opacity">
     <div class="carousel-item active">
       <img src="images/slide_2.jpg" class="d-block w-100 opacity" alt="..."/>
@@ -35,13 +35,19 @@ const HomeCard = () => (
     <h5 class="card-title">I Wonder</h5>
     <p class="card-text">Some People want to see real changes in their life before they die.</p>
     <a target="_blank" rel="" href="https://youtu.be/IRJTQ7FHx0o" class="btn btn-primary">Go to video</a>
-    <audio controls="controls">
-      <source src="track.ogg" type="audio/ogg" />
-      <source src="track.mp3" type="audio/mpeg" />
-    Your browser does not support the audio element.
-    </audio>
+
     </div>
     </div>
+</div>
+<audio controls="controls">
+<p>Kehliani - "Peace of Mind"</p>
+<source src="/audio/peaceofmind.mp3" type="audio/mpeg" />
+Your browser does not support the audio element.
+</audio>
+<audio controls="auto play controls">
+<source src="/audio/throughthewire.mp3" type="audio/mpeg" />
+Your browser does not support the audio element.
+</audio>
 </div>
 
 

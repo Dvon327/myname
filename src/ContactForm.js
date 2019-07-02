@@ -29,7 +29,7 @@ class ContactForm extends Component {
   }
   render(){
     return (
-      <div className="container">
+      <div className="container w-75 mx-auto mb-4">
       <h1>Message Me</h1>
       <h2>Contact me by phone 415-525-9690</h2>
         <div className="card opacity">
